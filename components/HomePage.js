@@ -43,8 +43,7 @@ const HomePage = () => {
         const{name,id} = item;
         return(
             <View style={styles.tasksItemContainer}>
-            <Text style={{transform:[{translateX:translation}]}}
-             onPress={setTranslation(-10)} style={styles.tasksItem}>{name}</Text>
+            <Text style={styles.tasksItem}>{name}</Text>
             <Icon size={45} onPress={()=>deleteOneTask(id)} style={styles.tasksItemDelete} name="cross"/>
                             {/* cannot onPress={deleteOneTask(id)}}. will raise error such as -
                             cannot run HomePage component when running other component,
