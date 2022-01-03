@@ -16,7 +16,8 @@ npm install realm
 This will install MongoDB Realm in your project and ready to be used. 
 
 # Setting up the UI
----screenshot here.
+![1](https://user-images.githubusercontent.com/49096143/147944528-39ecf40b-519a-4cb2-a9fc-c88884c228d2.png)
+
 The above screenshot shows the essential input bar for user's input to create tasks and delete buttons for each task. At the bottom, it shows the number of tasks and a button which deletes all of the tasks.
 # Setting up Database.
 
@@ -160,4 +161,9 @@ Here is the code for the button to delete all tasks and it is also similar to th
             </TouchableOpacity>
         </View>
 ```
+---
+# Local Storage
+There will be realm file in the local storage of the emulator. It can be found in ( Device File Explorer -> data -> project_name -> files -> pathName.realm. In order to view the contents of the realm file, we need to view it in realm studio which can downloaded at https://docs.mongodb.com/realm-legacy/products/realm-studio/index.html
+![localstorage](https://user-images.githubusercontent.com/49096143/147945276-bc9e0d17-ca97-435c-bcb8-01b61c1a5e9d.png)
+As shown in the screenshot, it shows the data and table I created in the app.
 ---
