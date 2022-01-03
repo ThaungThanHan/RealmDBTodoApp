@@ -163,7 +163,7 @@ Here is the code for the button to delete all tasks and it is also similar to th
 ```
 ---
 # Local Storage
-There will be realm file in the local storage of the emulator. It can be found in ( Device File Explorer -> data -> project_name -> files -> pathName.realm. In order to view the contents of the realm file, we need to view it in realm studio which can downloaded at https://docs.mongodb.com/realm-legacy/products/realm-studio/index.html
+There will be realm file in the local storage of the emulator. It can be found in ( Device File Explorer -> data -> project_name -> files -> pathName.realm ). In order to view the contents of the realm file, we need to view it in realm studio which can downloaded at https://docs.mongodb.com/realm-legacy/products/realm-studio/index.html
 ![localstorage](https://user-images.githubusercontent.com/49096143/147945276-bc9e0d17-ca97-435c-bcb8-01b61c1a5e9d.png)
 As shown in the screenshot, it shows the data and table I created in the app.
 ---
